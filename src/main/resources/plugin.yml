@@ -1,0 +1,11 @@
+name: QuizGame
+version: '${project.version}'
+main: com.coldspare.quizgame.QuizGame
+api-version: 1.18
+authors: [ ColdSpare ]
+description: DevRoom application project
+commands:
+  startgame:
+    description: Starts a new quiz game.
+  score:
+    description: Shows the player's score and the top scores.
